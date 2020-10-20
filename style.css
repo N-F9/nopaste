@@ -7,9 +7,9 @@ body {
 body {
     display: flex;
     flex-flow: column;
-    color: #fff;
+    color: #2e383c;
     font: normal 14px Roboto, sans-serif;
-    background-color: #282a36;
+    background-color: #ffffff;
 }
 
 #editor {
@@ -21,13 +21,13 @@ body {
 #controls,
 #copy,
 footer {
-    background-color: #3b3b47;
+    background-color: #f0f0f0;
     z-index: 10;
 }
 
 #progress {
     min-height: 3px;
-    background: #ff79c6;
+    background: #1d75b3;
     z-index: 15;
     width: 0;
 }
@@ -57,7 +57,7 @@ a,
 a:hover,
 a:active,
 a:focus {
-    color: #fff;
+    color: #2e383c;
     outline: none;
 }
 #controls a,
@@ -80,7 +80,7 @@ h1 {
     font-family: JetBrainsMono, sans-serif;
 }
 .pink {
-    color: #ff79c6;
+    color: #1d75b3;
 }
 
 /* Modals */
@@ -92,7 +92,7 @@ h1 {
     display: block;
 }
 .modal-content {
-    background-color: #3b3b47;
+    background-color: #fff;
     max-width: 600px;
     max-height: 100vh;
     overflow-y: auto;
@@ -121,8 +121,8 @@ h1 {
 button,
 input[type='text'],
 input[type='search'] {
-    background-color: #3b3b47 !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: #2e383c !important;
     border-radius: 2px !important;
     border: 1px solid #ccc !important;
     font: normal 14px Roboto, sans-serif;
@@ -132,12 +132,12 @@ input[type='search'] {
 input::-webkit-search-cancel-button {
     display: none;
 }
-input::-moz-selection {
+/* input::-moz-selection {
     background-color: rgba(90, 95, 128, 0.99);
 }
 input::selection {
     background-color: rgba(90, 95, 128, 0.99);
-}
+} */
 button {
     cursor: pointer;
 }
@@ -145,8 +145,8 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 .ss-content {
-    background-color: #282936;
-    color: #dedede;
+    background-color: #fff;
+    color: #2e383c;
     font-size: 14px;
 }
 .ss-content .ss-disabled {
