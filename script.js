@@ -166,7 +166,7 @@ const buildUrl = (rawData, mode) => {
         return `[NoPaste snippet](${url})`;
     }
     if (mode === 'iframe') {
-        const height = editor['doc'].height + 45;
+        const height = editor['doc'].height + 10;
         return `<iframe width="100%" height="${height}" frameborder="0" src="${url}"></iframe>`;
     }
     return url;
